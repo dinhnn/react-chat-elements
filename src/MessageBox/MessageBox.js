@@ -33,6 +33,7 @@ export class MessageBox extends Component {
 
         return (
             <div
+                id={this.props.id}
                 className={classNames('rce-container-mbox', this.props.className)}
                 onClick={this.props.onClick}>
                 {
